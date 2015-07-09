@@ -1,9 +1,9 @@
 import {EventAggregator} from 'aurelia-event-aggregator';
-import {WebAPI} from './web-api';
+import {PouchAPI} from './pouch-api';
 import {ContactUpdated, ContactViewed} from './messages';
 
 export class ContactList {
-  static inject = [WebAPI, EventAggregator];
+  static inject = [PouchAPI, EventAggregator];
   constructor(api, ea){
     this.api = api;
     this.contacts = [];

@@ -24,6 +24,7 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.10",
     "font-awesome": "npm:font-awesome@4.3.0",
     "nprogress": "github:rstacruz/nprogress@0.1.6",
+    "pouchdb": "github:pouchdb/pouchdb@3.6.0",
     "github:aurelia/binding@0.8.0": {
       "aurelia-dependency-injection": "github:aurelia/dependency-injection@0.9.0",
       "aurelia-metadata": "github:aurelia/metadata@0.7.0",

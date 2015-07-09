@@ -1,7 +1,7 @@
-import {WebAPI} from './web-api';
+import {PouchAPI} from './pouch-api';
 
 export class App {
-  static inject = [WebAPI];
+  static inject = [PouchAPI];
   constructor(api) {
     this.api = api;
   }
